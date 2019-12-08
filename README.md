@@ -48,19 +48,26 @@
 - ISteamUser
 
   Методы:
-  - getPlayerSummaries
+  - GetPlayerSummaries
+  - GetFriendList
+  - ResolveVanityUrl
+  
 - IPlayerService
 
   Методы:
-  - getPlayerSummaries
+  - GetRecentlyPlayedGames
+  - GetOwnedGames
+  - GetBadges
+  
 - ISteamUserStats
 
   Методы:
-  - getPlayerSummaries
+  - GetUserStatsForGame
+  
 - ISteamNews
 
   Методы:
-  - getPlayerSummaries
+  - GetNewsForApp
 
 
 ## Предложения по улучшению кода проекта
