@@ -35,7 +35,8 @@
 ## Используемые методы Steam API
 
 Сервисы:
-- ISteamUser\n
+- ISteamUser
+
   Методы:
   - getPlayerSummaries
 - IPlayerService
