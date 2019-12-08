@@ -16,11 +16,11 @@
 
 Структура проекта:
 
-#- Constants: папка, где содержатся UI костанты и общие константы 
-- [Extensions] соотвественно здесь находятся extension-ы
-- [Utils] - вспомогательные статические классы
-- [NetworkServices] - сервисы, схожие по именам с сервисами Steam API, через которые осуществляются сетевое взаимодействие со Steam API
-- [NetworkModels] - содержит подгруппы Request и Response со структурами, описывающими параметры запроса и ответа
+- Constants: папка, где содержатся UI костанты и общие константы 
+- Extensions: соотвественно здесь находятся extension-ы
+- Utils: вспомогательные статические классы
+- NetworkServices: сервисы, схожие по именам с сервисами Steam API, через которые осуществляются сетевое взаимодействие со Steam API
+- NetworkModels: содержит подгруппы Request и Response со структурами, описывающими параметры запроса и ответа
 
 
 ## Сторонние библиотеки
@@ -35,10 +35,12 @@
 ## Используемые методы Steam API
 
 Сервисы:
-- [ISteamUser]
-- [IPlayerService]
-- [ISteamUserStats]
-- [ISteamNews]
+- ISteamUser
+  Методы:
+  - getPlayerSummaries
+- IPlayerService
+- ISteamUserStats
+- ISteamNews
 
 
 ## Предложения по улучшению кода проекта
