@@ -51,15 +51,15 @@
   - getPlayerSummaries
 - IPlayerService
 
- Методы:
+  Методы:
   - getPlayerSummaries
 - ISteamUserStats
 
- Методы:
+  Методы:
   - getPlayerSummaries
 - ISteamNews
 
- Методы:
+  Методы:
   - getPlayerSummaries
 
 
